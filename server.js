@@ -26,6 +26,11 @@ const connectDB = async() => {
     }
 }
 
+app.get("/test",(req,res)=>{
+    res.json({
+        msg:"test was successfull!!!"
+    })
+})
 
 // app.post("/test", async (req, res) => {
 //     const options = {
