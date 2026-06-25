@@ -28,7 +28,8 @@ const connectDB = async() => {
 
 app.get("/test",(req,res)=>{
     res.json({
-        msg:"Final update  : test was successfull!!!"
+        msg:"Final update  : test was successfull!!!",
+        finalupd:"backup .env is set to work"
     })
 })
 
