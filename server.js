@@ -28,7 +28,7 @@ const connectDB = async() => {
 
 app.get("/test",(req,res)=>{
     res.json({
-        msg:"test was successfull!!!"
+        msg:"Final update  : test was successfull!!!"
     })
 })
 
